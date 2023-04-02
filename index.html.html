@@ -1,0 +1,161 @@
+<html>
+<head>
+<style>
+      /* Style for the menu bar */
+      .menu-bar {
+        background-color: #333;
+        overflow: hidden;
+      }
+
+      /* Style for the links */
+      .menu-bar a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Style for the active link */
+      .menu-bar a.active {
+        background-color: #4CAF50;
+      }
+
+      /* Style for the links when hovered */
+      .menu-bar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+</style>
+</head>
+<body>
+<!-- Menu bar -->
+<div class="menu-bar">
+<a class="active" href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</div>
+</body>
+</html>
+
+<h1>WEB NOVAL</h1>
+<p>
+<h2>
+<ul>.Action</ul>
+</h2>
+</p> 
+<p>
+<h2>
+<ul>.Fantasy</ul>
+</h2>
+</p>
+<meta charset="utf-8">
+<title>my project</title>
+<script src="https://cdn.ckeditor.com/ckeditor5/31.0.0/classic/ckeditor.js">
+</script>
+</head>
+<body>
+<h1>Become A Writter</h1>
+<form action="save.php" method="post">
+<textarea name="content" id="editor">
+</textarea>
+<br>
+<input type="submit" value="Uplode">
+</form>
+<script>
+        ClassicEditor
+            .create(document.querySelector('#editor'), {
+                wordCount: {
+                    max: 3000
+                }
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+<?php
+if(isset($_POST['content'])) {
+    $content = $_POST['content'];
+    require_once __DIR__.'/vendor/autoload.php';
+    use Spipu\Html2Pdf\Html2Pdf;
+    try {
+        $pdf = new Html2Pdf('P', 'A4', 'en');
+        $pdf->
+
+</body>
+<h1 class="heading">WEB NOVAL</h1>
+<title>
+Web Story
+</title>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+  <label for="file"><p>Select file to upload:</p></label>
+  <input type="file" name="file" id="file">
+  <p><input type="submit" name="submit" 
+</p></form>
+<style type=text/css>body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: sans-serif;  
+}  
+header {  
+background-color: orange;  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 30px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 25px 0 black;  
+}  
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 20px;  
+}  
+header li a {  
+color: blue;  
+text-decoration: none;  
+}  
+</style>   
+
+<div class="container">
+		<div class="form-container sign-up-container">
+			<form>
+				<h1>Create Account</h1>
+				<h2><input type="text" placeholder="Name" /></h2>
+				<h3><input type="email" placeholder="Email" /></h3>
+				<h4><input type="password" placeholder="Password" /></h4>
+				<h5><button>Sign Up</button></h5>
+			</form>
+		</div>
+		<div class="form-container sign-in-container">
+			<form>
+				<h1>Sign in</h1>
+				<h2><input type="email" placeholder="Email" /></h2>
+				<h3><input type="password" placeholder="Password" /></h3>
+				<h4><a href="#">Forgot your password?</a></h4>
+				<h5><button>Sign In</button></h5>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>Welcome Back!</h1>
+					<p>To keep connected with us please login with your personal info</p>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>Hello, Friend!</h1>
+					<p>Enter your personal details and start your journey with us</p>
+      <h2>About</H2><p>
+Hello,friend! 
+  <p> We Are Here To Provide The Different And Latest Story Which Include Action,Fantasy,thriller,Romantic,ETC.</p></p>
+</div></div></div></div><scriptsrc="script.js"></script>
+
+
+</body>
+</html>
